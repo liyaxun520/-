@@ -5,11 +5,6 @@ class Computor(){
     lateinit var  usbStorage:IMobileStorage
 
 
-//    constructor(usbStorage: IMobileStorage) {
-//        this.usbStorage = usbStorage
-//    }
-
-
     fun readData(){
         usbStorage.readData()
     }
